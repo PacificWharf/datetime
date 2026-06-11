@@ -1,5 +1,5 @@
 {
-    "name": "@pacific-wharf/datetime",
+    "name": "@pacificwharf/datetime",
     "version": "1.0.0",
     "description": "Dependency-free timestamp formatting utilities for Pacific Wharf projects.",
     "license": "MIT",
