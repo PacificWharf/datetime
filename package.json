@@ -1,6 +1,6 @@
 {
     "name": "@pacific-wharf/datetime",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Dependency-free timestamp formatting utilities for Pacific Wharf projects.",
     "license": "MIT",
     "author": "M. Scott Lassiter",
