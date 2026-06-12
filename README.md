@@ -1,17 +1,17 @@
-# @pacific-wharf/datetime
+# @pacificwharf/datetime
 
 Dependency-free timestamp formatting utilities for Pacific Wharf projects.
 
 ## Install
 
 ```bash
-npm install @pacific-wharf/datetime
+npm install @pacificwharf/datetime
 ```
 
 ## Usage
 
 ```js
-import { formatUnixTimestamp } from '@pacific-wharf/datetime'
+import { formatUnixTimestamp } from '@pacificwharf/datetime'
 
 const value = Date.UTC(2026, 2, 31, 21, 5, 7, 42)
 
@@ -22,6 +22,8 @@ formatUnixTimestamp({
 })
 // '2026-03-31 14:05:07.042 PDT -0700 -07:00'
 ```
+
+TypeScript declarations are included with the package.
 
 ## API
 

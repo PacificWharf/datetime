@@ -1,14 +1,18 @@
 {
     "name": "@pacificwharf/datetime",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Dependency-free timestamp formatting utilities for Pacific Wharf projects.",
     "license": "MIT",
     "author": "M. Scott Lassiter",
     "type": "module",
     "private": false,
     "main": "./src/datetime.js",
+    "types": "./src/datetime.d.ts",
     "exports": {
-        ".": "./src/datetime.js"
+        ".": {
+            "types": "./src/datetime.d.ts",
+            "import": "./src/datetime.js"
+        }
     },
     "files": [
         "src/",
